@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="site-header">
         <div class="container">
-            <nav>
+            <nav class="site-nav">
                 <a class="logo link" href="./index.html">
                     Web<span class="logo__studio">Studio</span>
                 </a>
@@ -36,90 +36,111 @@
         </div>
     </header>
     <main>
-        <section>
-            <h1 class="hidden">Portfolio</h1>
-            <ul class="list tag-list">
-                <li class="tag-list__item active">
-                    <button class="tag-list-button" type="button">All</button>
-                </li>
-                <li class="tag-list__item">
-                    <button class="tag-list-button" type="button">Web Site</button>
-                </li>
-                <li class="tag-list__item">
-                    <button class="tag-list-button" type="button">App</button>
-                </li>
-                <li class="tag-list__item">
-                    <button class="tag-list-button" type="button">Design</button>
-                </li>
-                <li class="tag-list__item">
-                    <button class="tag-list-button" type="button">Marketing</button>
-                </li>
-            </ul>
-            <ul class="list project-list">
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project1.jpeg" width="360" height="300" alt="Banking App Interface Concept">
-                        <h2 class="text-h-three project-card__heading">Banking App Interface Concept</h2>
-                        <p class="project-card__tag">App</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project2.jpeg" width="360" height="300" alt="Cashless Payment">
-                        <h2 class="text-h-three project-card__heading">Cashless Payment</h2>
-                        <p class="project-card__tag">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project3.jpeg" width="360" height="300" alt="Meditation App">
-                        <h2 class="text-h-three project-card__heading">Meditation App</h2>
-                        <p class="project-card__tag">App</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project4.jpeg" width="360" height="300" alt="Taxi Service">
-                        <h2 class="text-h-three project-card__heading">Taxi Service</h2>
-                        <p class="project-card__tag">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project5.jpeg" width="360" height="300" alt="Screen Illustrations">
-                        <h2 class="text-h-three project-card__heading">Screen Illustrations</h2>
-                        <p class="project-card__tag">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project6.jpeg" width="360" height="300" alt="Online Courses">
-                        <h2 class="text-h-three project-card__heading">Online Courses</h2>
-                        <p class="project-card__tag">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project7.jpeg" width="360" height="300" alt="Instagram Stories Concept">
-                        <h2 class="text-h-three project-card__heading">Instagram Stories Concept</h2>
-                        <p class="project-card__tag">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project8.jpeg" width="360" height="300" alt="Organic Food">
-                        <h2 class="text-h-three project-card__heading">Organic Food</h2>
-                        <p class="project-card__tag">Web Site</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link project-card" href="">
-                        <img src="./images/project9.jpeg" width="360" height="300" alt="Fresh Coffee">
-                        <h2 class="text-h-three project-card__heading">Fresh Coffee</h2>
-                        <p class="project-card__tag">Web Site</p>
-                    </a>
-                </li>
-            </ul>
+        <section class="portfolio-section">
+            <div class="container">
+                <h1 class="visually-hidden">Portfolio</h1>
+                <ul class="list tag-list">
+                    <li class="tag-list__item active">
+                        <button class="tag-list-button" type="button">All</button>
+                    </li>
+                    <li class="tag-list__item">
+                        <button class="tag-list-button" type="button">Web Site</button>
+                    </li>
+                    <li class="tag-list__item">
+                        <button class="tag-list-button" type="button">App</button>
+                    </li>
+                    <li class="tag-list__item">
+                        <button class="tag-list-button" type="button">Design</button>
+                    </li>
+                    <li class="tag-list__item">
+                        <button class="tag-list-button" type="button">Marketing</button>
+                    </li>
+                </ul>
+                <ul class="list project-list">
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project1.jpeg" width="360" height="300"
+                                alt="Banking App Interface Concept">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Banking App Interface Concept</h2>
+                                <p class="project-card__tag">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project2.jpeg" width="360" height="300" alt="Cashless Payment">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Cashless Payment</h2>
+                                <p class="project-card__tag">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project3.jpeg" width="360" height="300" alt="Meditation App">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Meditation App</h2>
+                                <p class="project-card__tag">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project4.jpeg" width="360" height="300" alt="Taxi Service">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Taxi Service</h2>
+                                <p class="project-card__tag">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project5.jpeg" width="360" height="300" alt="Screen Illustrations">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Screen Illustrations</h2>
+                                <p class="project-card__tag">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project6.jpeg" width="360" height="300" alt="Online Courses">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Online Courses</h2>
+                                <p class="project-card__tag">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project7.jpeg" width="360" height="300" alt="Instagram Stories Concept">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Instagram Stories Concept</h2>
+                                <p class="project-card__tag">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project8.jpeg" width="360" height="300" alt="Organic Food">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Organic Food</h2>
+                                <p class="project-card__tag">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link project-card" href="">
+                            <img src="./images/project9.jpeg" width="360" height="300" alt="Fresh Coffee">
+                            <div class="project-card__data">
+                                <h2 class="text-h-three project-card__heading">Fresh Coffee</h2>
+                                <p class="project-card__tag">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="page-footer">
