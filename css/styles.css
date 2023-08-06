@@ -21,18 +21,52 @@ body {
   margin: 0;
 }
 
-.hidden {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 button {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+.container { 
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right:  auto;
+  }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list {
@@ -46,10 +80,7 @@ button {
 
 .text-h-one {
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -57,16 +88,13 @@ button {
 
 .text-h2 {
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .text-h-three {
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -75,26 +103,22 @@ button {
 
 .text-body {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .text-body-md {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .text-button {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 
 .text-small {
@@ -109,16 +133,16 @@ button {
 header {
   justify-content: center;
   flex-shrink: 0;
+  border-bottom: 1px solid var(--cornflower);
 }
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: var(--iris);
   flex-shrink: 0;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -157,7 +181,6 @@ header {
 .address-link {
   color: var(--slate);
   text-decoration: none;
-  font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
@@ -171,14 +194,13 @@ header {
   background-color: var(--navy-blue);
 }
 .page-footer .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-
 }
 .page-footer .text {
   color: var(--cloud);
@@ -189,13 +211,11 @@ header {
 /* ========== Styles for main page ========== */
 .main-section {
   background-color: var(--navy-blue);
-
 }
 .main-section-hero {
-  
 }
 .order-service {
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -205,7 +225,7 @@ header {
 }
 .order-service:hover,
 .order-service:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
   cursor: pointer;
 }
 /* .main-section-heading {
@@ -228,8 +248,7 @@ header {
   font-size: 36px;
 }
 .main-section-four {
-  background-color: #F4F4FD;
-
+  background-color: #f4f4fd;
 }
 .main-section-four-header {
   font-size: 36px;
@@ -241,7 +260,6 @@ header {
 }
 .main-section-four-list-item {
   background-color: #ffffff;
-
 }
 .main-section-four-list-item-heading {
   font-weight: 500;
