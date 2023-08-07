@@ -227,6 +227,7 @@ button {
 }
 .page-footer .text {
   color: var(--cloud);
+  max-width: 264px;
 }
 /* ========== /Footer ========== */
 
