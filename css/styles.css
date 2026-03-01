@@ -340,9 +340,9 @@ button {
   font-size: 16px;
   text-align: center;
 }
-/* ========== Portfolio page ========== */
-.portfolio-section {
-  padding: 96px 0 120px 0;
+/* ========== Portfolio ========== */
+.portfolio-header {
+  margin-bottom: 72px;
 }
 /* ========== Filters ========== */
 .tag-list {
